@@ -8,6 +8,9 @@ const StyledInputWrap = styled.div`
   min-width: 350px;
   max-width: 350px;
   position: relative;
+  @media (max-width: 570px) {
+    min-width: 300px;
+  }
   ${(props) => props.hasError
     && css`
       padding: 20px 0px 10px 0px;

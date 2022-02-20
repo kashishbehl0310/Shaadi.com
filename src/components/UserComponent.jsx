@@ -23,8 +23,8 @@ const UserComponent = ({
 }) => {
   return (
     <Card
+      className="user-card"
       style={{
-        width: "600px",
         marginBottom: "20px"
       }}
     >

@@ -25,3 +25,26 @@
     to { transform: rotate(360deg); }
   }
   
+  .login-card {
+    max-width: 380px;
+  }
+
+  .login-button {
+    width: 200px !important;
+  }
+
+  .user-card, .loading-card {
+    width: 600px;
+  }
+
+  @media (max-width: 570px) {
+    .login-card {
+      max-width: 280px;
+    }
+    .login-button {
+      width: 100px !important;
+    }
+    .user-card, .loading-card {
+      width: 300px;
+    }
+  }

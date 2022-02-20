@@ -1,6 +1,17 @@
 import React from "react";
+import styled from "styled-components";
 
 import Button from "./Button";
+
+const StyledDiv = styled.div`
+  width: 98%;
+  display: flex;
+  justify-content: flex-end;
+  padding: 16px 24px;
+  @media (max-width: 570px) {
+    width: 88%;
+  }
+`;
 
 const Header = ({ history }) => {
 
@@ -10,17 +21,10 @@ const Header = ({ history }) => {
   }
 
   return (
-    <div
-      style={{
-        width: "98%",
-        display: "flex",
-        justifyContent: "flex-end",
-        padding: "16px 24px",
-      }}
-    >
+    <StyledDiv>
       <Button
+        className="login-button"
         style={{
-          width: "200px",
           height: "fit-content",
           padding: "16px",
         }}
@@ -28,7 +32,7 @@ const Header = ({ history }) => {
           handleLogout();
         }}
       >Logout</Button>
-    </div>
+    </StyledDiv>
   )
 }
 

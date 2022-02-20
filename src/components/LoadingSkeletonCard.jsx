@@ -5,8 +5,8 @@ import Skeleton from "./Skeleton";
 const LoadingSkeletonCard = () => {
   return (
     <Card
+      className="loading-card"
       style={{
-        width: "600px",
         marginBottom: "20px"
       }}
     >

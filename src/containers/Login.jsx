@@ -66,8 +66,8 @@ const Login = ({ history }) => {
   return (
     <div>
       <Card
+        className="login-card"
         style={{
-          maxWidth: "380px",
           display: "flex",
           flexDirection: "column",
           alignItems: "center",
