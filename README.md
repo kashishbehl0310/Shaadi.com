@@ -1,4 +1,4 @@
-# Docsumo Recruitment task - Login Page
+# Shaadi.com Recruitment task - Login Page
 
 Task provided by Shaadi.com to build Single Page application.
 
@@ -8,7 +8,7 @@ Project requires [Node.js](https://nodejs.org/) v4+ to run.
 
 Cloning the project
 ```sh
-git clone https://github.com/kashishbehl0310/DocSumo.git
+git clone https://github.com/kashishbehl0310/Shaadi.com.git
 ```
 Install the dependencies and devDependencies and start the server.
 
