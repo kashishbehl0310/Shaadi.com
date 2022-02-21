@@ -5,10 +5,6 @@ import Button from "../components/Button";
 import Card from "../components/Card";
 import Input from "../components/Input";
 
-import {
-  login
-} from "../../api"
-
 const StyledHeading = styled.h1`
   color: var(--dsFontPrimary);
   margin: 0;

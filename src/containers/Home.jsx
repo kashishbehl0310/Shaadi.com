@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useCallback, useRef } from "react";
 import styled from "styled-components";
-import fetchUsers from "../../api";
+import fetchUsers from "../api";
 import Header from "../components/Header";
 import LoadingSkeletonCard from "../components/LoadingSkeletonCard";
 import PageContainer from "../components/PageContainer";

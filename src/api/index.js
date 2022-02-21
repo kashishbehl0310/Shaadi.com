@@ -1,4 +1,4 @@
-import config from "../src/config/appConfig";
+import config from "../../config/appConfig";
 
 const fetchUsers = (cb, data) => {
   const { apiUrl } = config;
